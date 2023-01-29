@@ -2,7 +2,7 @@
 
 check_factor()
 {
-	if [$# -ne 3 ];
+	if [ $# -ne 3 ];
 	then
 		args=("$@")
 		count=0
